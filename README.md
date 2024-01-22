@@ -36,7 +36,7 @@ This web application serves as a language translator, allowing users to translat
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/Shevadesuyash/eclipse-translator.git
+   git clone https://github.com/Shevadesuyash/eclipse-translator-webapp-with-java-servlet-and-python.git
 2. Set up your Apache Tomcat server and configure it.
 
 3. Ensure Python is installed on your system.
