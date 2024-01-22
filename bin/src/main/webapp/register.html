@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<title>Translator - Register</title>
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<link rel="stylesheet" href="css.css">
+<!-- Link to your consolidated CSS file -->
+</head>
+
+<body>
+
+	<!-- Header -->
+	<header id="header">
+		<div class="contact-info">
+			<a href="mailto:shevadesuyash30@gmail.com">shevadesuyash30@gmail.com</a>
+		</div>
+		<div id="logo">
+			<h1>
+				<a href="index.html">Translator</a>
+			</h1>
+		</div>
+		<nav>
+			<ul class="social-media">
+				<li><a href="index.html">Home</a></li>
+
+				<li><a href="https://www.instagram.com/shevadesuyash30/"> <img
+						src="img/instagram.png" alt="Instagram Account"
+						class="social-icon">
+				</a></li>
+				<li><a
+					href="https://www.linkedin.com/in/suyash-shevade-8b07a9236/"> <img
+						src="img/linkedin.png" alt="LinkedIn Account" class="social-icon">
+				</a></li>
+				<li><a href="https://github.com/Shevadesuyash"> <img
+						src="img/github.png" alt="GitHub Account" class="social-icon">
+				</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<!-- Register Form Section -->
+	<div class="login-container">
+		<h2>Register</h2>
+		<form action="RegisterServlet" method="post">
+			<!-- Adjust the action attribute -->
+			<div class="form-group">
+				<label for="username">Username:</label> <input type="text"
+					id="username" name="username" placeholder="Enter your username"
+					required>
+			</div>
+			<div class="form-group">
+				<label for="email">Email:</label> <input type="email" id="email"
+					name="email" placeholder="Enter your email" required>
+			</div>
+			<div class="form-group">
+				<label for="password">Password:</label> <input type="password"
+					id="password" name="password" placeholder="Enter your password"
+					required>
+			</div>
+			<div class="form-group">
+				<button type="submit">Register</button>
+			</div>
+		</form>
+
+		<!-- Button to go back to the Login page -->
+		<div class="form-group">
+			<button onclick="window.location.href='login.html'">Back to
+				Login</button>
+		</div>
+	</div>
+
+</body>
+
+</html>
