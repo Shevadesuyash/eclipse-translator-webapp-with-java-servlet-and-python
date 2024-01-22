@@ -31,17 +31,33 @@ This web application serves as a language translator, allowing users to translat
 - HTML and CSS for frontend
 - Python for translation using the Googletrans library
 
-## Installation
+### Prerequisites
+
+- [Java Development Kit (JDK)](https://www.oracle.com/java/technologies/javase-downloads.html)
+- [Apache Tomcat](http://tomcat.apache.org/)
+- Python installed with required libraries (`googletrans==4.0.0-rc1`)
+
+
+### Installation
 
 1. Clone the repository:
 
    ```bash
    git clone https://github.com/Shevadesuyash/eclipse-translator-webapp-with-java-servlet-and-python.git
-2. Set up your Apache Tomcat server and configure it.
+Set up Apache Tomcat and deploy the application.
 
-3. Ensure Python is installed on your system.
+2.Configure Python script:
 
-4. Run the application on your Apache Tomcat server.
+Install required Python libraries:
+
+   ```bash
+pip install googletrans==4.0.0-rc1
+   
+```
+
+3.Update the path to your Python interpreter in TranslatorServlet.java.
+
+4.Run the application and access it through the browser.
 
 ## Usage
 1.Access the application:
@@ -61,7 +77,17 @@ https://github.com/Shevadesuyash/eclipse-translator-webapp-with-java-servlet-and
 Click the "Translate" button to view the translated text and its pronunciation for English translations.
 
 ## Contributors
-## Suyash Shevade
+ Suyash Shevade
+
+## Social Media
+
+Connect with me:
+
+- [LinkedIn](https://www.linkedin.com/in/suyash-shevade-8b07a9236/)
+- [Instagram](https://www.instagram.com/shevadesuyash30/)
+- [GitHub](https://github.com/Shevadesuyash)
+
+Feel free to reach out and stay updated on social media!
 ## License
 This project is open-source and available under the MIT License.
 
@@ -74,4 +100,3 @@ This project is open-source and available under the MIT License.
 
 
 
-Feel free to customize the content based on your preferences and add more details specific to your project. If you have specific contributors, technologies, or additional features, include them in the appropriate sections.
